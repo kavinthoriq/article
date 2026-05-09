@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VynzArticle - Portal artikel terbaik untuk informasi, edukasi, dan wawasan seputar Teknologi & Bisnis.">
+  <title>VynzArticle - Sumber Artikel Teknologi & Bisnis Terpercaya</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">VynzArticle.</a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Beranda</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="#kategori">Kategori</a>
+        <a href="#tentang-kami">Tentang Kami</a>
+      </div>
+      <div class="nav-actions">
+        <div class="search-container">
+          <input type="text" placeholder="Cari artikel..." class="search-input" id="searchInput">
+          <button class="search-btn" aria-label="Search" id="searchBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          </button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <button class="menu-toggle" aria-label="Toggle Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero container">
+    <h1>Wawasan Baru, Setiap Hari.</h1>
+    <p>Temukan artikel mendalam, opini ahli, dan tren terbaru seputar Teknologi dan Bisnis untuk membantu Anda tetap relevan di era digital.</p>
+  </section>
+
+  <!-- Kategori Chips -->
+  <div class="container" id="kategori" style="padding-top: 40px; scroll-margin-top: 80px;">
+    <div class="categories-wrapper">
+      <a href="#" class="category-chip active">Semua</a>
+      <a href="#" class="category-chip">Kecerdasan Buatan</a>
+      <a href="#" class="category-chip">Startup</a>
+      <a href="#" class="category-chip">Produktivitas</a>
+      <a href="#" class="category-chip">Keuangan</a>
+      <a href="#" class="category-chip">Gadget</a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="container section">
+    
+    <!-- Featured Article -->
+    <h2 class="section-title">Artikel Pilihan</h2>
+    <article class="featured-article">
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Masa Depan AI" class="featured-img" loading="lazy">
+      <div class="featured-content">
+        <span class="card-category">Kecerdasan Buatan</span>
+        <h3 class="card-title"><a href="detail.html">Masa Depan Generative AI dalam Meningkatkan Produktivitas Startup</a></h3>
+        <p class="card-excerpt">Pelajari bagaimana teknologi kecerdasan buatan tidak hanya mengubah cara kita bekerja, tetapi juga menciptakan efisiensi yang belum pernah ada sebelumnya di dunia bisnis.</p>
+        <div class="card-meta">
+          <span>Oleh Budi Santoso</span>
+          <span>12 Mei 2026 • 5 min baca</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Latest Articles -->
+    <h2 class="section-title">Artikel Terbaru</h2>
+    <div class="articles-grid">
+      <!-- Article 1 -->
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Bisnis Digital" class="card-img" loading="lazy">
+        <div class="card-content">
+          <span class="card-category">Bisnis</span>
+          <h3 class="card-title"><a href="detail.html">Strategi Bertahan untuk Bisnis Kecil di Era E-commerce Modern</a></h3>
+          <p class="card-excerpt">Adaptasi adalah kunci. Temukan strategi praktis untuk mengoptimalkan penjualan online Anda tahun ini.</p>
+          <div class="card-meta">
+            <span>2 Mei 2026</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Article 2 -->
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Web Development" class="card-img" loading="lazy">
+        <div class="card-content">
+          <span class="card-category">Pengembangan Web</span>
+          <h3 class="card-title"><a href="detail.html">Tren Web Design 2026: Minimalis dan Performa Tinggi</a></h3>
+          <p class="card-excerpt">Mengapa kecepatan loading dan desain bersih menjadi prioritas utama pengguna internet saat ini.</p>
+          <div class="card-meta">
+            <span>28 Apr 2026</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Article 3 -->
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Data Analisis" class="card-img" loading="lazy">
+        <div class="card-content">
+          <span class="card-category">Data</span>
+          <h3 class="card-title"><a href="detail.html">Memahami Data Analytics untuk Pemula</a></h3>
+          <p class="card-excerpt">Panduan langkah demi langkah menggunakan data untuk mengambil keputusan bisnis yang lebih baik.</p>
+          <div class="card-meta">
+            <span>25 Apr 2026</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- Tentang Kami -->
+  <section id="tentang-kami" class="container section" style="scroll-margin-top: 80px;">
+    <h2 class="section-title">Tentang Kami</h2>
+    <div class="about-content" style="background-color: var(--surface-color); padding: 40px; border-radius: var(--radius); border: 1px solid var(--border-color);">
+      <p style="font-size: 1.1rem; color: var(--text-muted); line-height: 1.8;">VynzArticle adalah portal artikel yang didedikasikan untuk memberikan informasi, edukasi, dan wawasan terbaru seputar dunia Teknologi dan Bisnis. Kami percaya bahwa pengetahuan adalah kunci untuk terus berkembang di era digital yang bergerak cepat ini. Tim penulis kami terdiri dari para profesional dan penggiat industri yang berkomitmen untuk menyajikan konten berkualitas tinggi, relevan, dan mudah dipahami.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">VynzArticle.</a>
+          <p>Membawa wawasan, inovasi, dan edukasi seputar teknologi dan bisnis langsung ke layar Anda.</p>
+        </div>
+        <div>
+          <h4 class="footer-title">Jelajahi</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="artikel.html">Artikel Terbaru</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Kategori</h4>
+          <ul class="footer-links">
+            <li><a href="#">Teknologi</a></li>
+            <li><a href="#">Bisnis & Startup</a></li>
+            <li><a href="#">Produktivitas</a></li>
+            <li><a href="#">Pengembangan Diri</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VynzArticle. Hak cipta dilindungi undang-undang.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
